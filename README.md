@@ -34,3 +34,10 @@ A simple Google Chrome extension to manage and track your assignments with a "Co
 ## Permissions
 
 - **Storage**: Required for saving assignments locally.
+
+## Demo
+<img width="202" alt="imageforextension" src="https://github.com/user-attachments/assets/5fa480e7-0739-4549-afed-094589b69429" /> <img width="353" alt="exforextension" src="https://github.com/user-attachments/assets/f2df853a-5664-4ebf-a11e-31ac54502818" />
+
+
+
+
