@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  button {
+    background-color: #66bfbf;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .assignment-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .assignment-item p {
+    margin: 0;
+  }
+  
+  .assignment-name {
+    font-weight: bold;
+  }
+  
+  .assignment-class {
+    color: #888;
+  }
+  
+  .assignment-date {
+    color: #888;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }

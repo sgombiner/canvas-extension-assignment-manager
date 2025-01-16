@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment Tracker</title>
+    <link rel="stylesheet" href="popup.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Assignment Tracker</h1>
+    <form id="assignment-form">
+      <label for="assignment-name">Assignment Name:</label>
+      <input
+        type="text"
+        id="assignment-name"
+        placeholder="Enter assignment name"
+        required
+      />
+
+      <label for="assignment-class">Assignment Class:</label>
+      <input
+        type="text"
+        id="assignment-class"
+        placeholder="Enter assignment class"
+        required
+      />
+
+      <label for="assignment-date">Assignment Due:</label>
+      <input type="date" id="assignment-date" required />
+
+      <button type="submit">Add Assignment</button>
+    </form>
+
+    <div id="assignments-container"></div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
